@@ -1,0 +1,21 @@
+ion-col {
+  &.column-a {
+    order: 1; // Inicialmente, Columna A aparece antes que Columna B
+  }
+
+  &.column-b {
+    order: 2; // Inicialmente, Columna B aparece después de Columna A
+  }
+}
+
+@media (min-width: 768px) {
+  ion-col {
+    &.column-a {
+      order: 2; // Cambia el orden en pantallas medianas, ahora Columna A aparece después de Columna B
+    }
+
+    &.column-b {
+      order: 1; // Cambia el orden en pantallas medianas, ahora Columna B aparece antes de Columna A
+    }
+  }
+}

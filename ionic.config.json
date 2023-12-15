@@ -1,0 +1,7 @@
+{
+  "name": "EjerciciosR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
